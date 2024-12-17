@@ -1,5 +1,6 @@
-import 'package:day01/Screen/hompage.dart';
 import 'package:flutter/material.dart';
+
+import 'Widgets/ButtomNavBar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Hompage(),
+      home: mybutton(),
       debugShowCheckedModeBanner: false,
     );
   }
