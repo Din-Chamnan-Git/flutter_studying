@@ -31,6 +31,90 @@ class _mybuttonState extends State<mybutton> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.deepPurple,
+        title: const Text(
+          "My App",
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            fontFamily: "poppin",
+            color: Colors.white,
+          ),
+        ),
+        centerTitle: true,
+        // leading: IconButton(
+        //   onPressed: () {},
+        //   icon: const Icon(
+        //     Icons.menu,
+        //     color: Colors.white,
+        //   ),
+        // ),
+        actions: [
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(
+              Icons.share,
+              color: Colors.white,
+            ),
+          ),
+        ],
+      ),
+      drawer: Drawer(
+        backgroundColor: Colors.blue[400],
+        child: Container(
+          child: ListView(
+            children: [
+              DrawerHeader(
+                child: Center(
+                  child: Text(
+                    "Logo",
+                    style: TextStyle(
+                      fontSize: 35,
+                      fontWeight: FontWeight.bold,
+                      fontFamily: "poppin",
+                    ),
+                  ),
+                ),
+              ),
+              ListTile(
+                leading: Icon(
+                  Icons.home,
+                  color: Colors.white,
+                ),
+                title: Text(
+                  "Home",
+                  style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    fontFamily: "poppin",
+                  ),
+                ),
+                onTap: () {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => Pagehome(),
+                    ),
+                  );
+                },
+              ),
+              ListTile(
+                leading: Icon(
+                  Icons.message,
+                  color: Colors.white,
+                ),
+                title: Text(
+                  "Message",
+                  style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    fontFamily: "poppin",
+                  ),
+                ),
+              )
+            ],
+          ),
+        ),
+      ),
       body: pages[indexPage],
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: indexPage,

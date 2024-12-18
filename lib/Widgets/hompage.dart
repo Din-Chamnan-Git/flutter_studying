@@ -16,8 +16,8 @@ class _HompageState extends State<Hompage> {
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 255, 255, 255),
       appBar: AppBar(
-        backgroundColor: Color(0xFFa51c30),
-        title: Text(
+        backgroundColor: const Color(0xFFa51c30),
+        title: const Text(
           "Merry Christmas",
           style: TextStyle(
               fontWeight: FontWeight.bold,
@@ -27,7 +27,7 @@ class _HompageState extends State<Hompage> {
         centerTitle: true,
         toolbarHeight: 100,
         actions: [
-          Icon(
+          const Icon(
             Icons.ac_unit_rounded,
             color: Colors.white,
             size: 30,
@@ -38,7 +38,7 @@ class _HompageState extends State<Hompage> {
         children: [
           Column(
             children: [
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               Container(
@@ -48,14 +48,14 @@ class _HompageState extends State<Hompage> {
                   itemCount: 3,
                   scrollDirection: Axis.horizontal,
                   itemBuilder: (context, index) {
-                    return Slideimage();
+                    return const Slideimage();
                   },
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
-              Text(
+              const Text(
                 "Post New",
                 style: TextStyle(
                     fontFamily: "poppin",
@@ -67,9 +67,8 @@ class _HompageState extends State<Hompage> {
                   shrinkWrap:
                       true, // Ensures the ListView only takes necessary space\
 
-                      
                   physics:
-                      NeverScrollableScrollPhysics(), // Disables ListView scrolling
+                      const NeverScrollableScrollPhysics(), // Disables ListView scrolling
                   itemCount: postImge.length,
                   itemBuilder: (context, index) {
                     return postBlog(
