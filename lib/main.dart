@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'Widgets/ButtomNavBar.dart';
 import 'Widgets/SliverAppbardemo.dart';
+import 'Widgets/TabBarDemo.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       
-      home: Sliverappbardemo(),
+      home: Tabbardemo(),
       debugShowCheckedModeBanner: false,
     );
   }
