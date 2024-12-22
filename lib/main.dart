@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
+import 'Widgets/AlertDailogDemo.dart';
 import 'Widgets/ButtomNavBar.dart';
+import 'Widgets/MediaQueryDemo.dart';
 import 'Widgets/SliverAppbardemo.dart';
 import 'Widgets/TabBarDemo.dart';
 
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       
-      home: Tabbardemo(),
+      home: Alertdailogdemo(),
       debugShowCheckedModeBanner: false,
     );
   }
