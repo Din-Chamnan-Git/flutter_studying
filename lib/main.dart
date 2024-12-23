@@ -5,6 +5,7 @@ import 'Widgets/ButtomNavBar.dart';
 import 'Widgets/MediaQueryDemo.dart';
 import 'Widgets/SliverAppbardemo.dart';
 import 'Widgets/TabBarDemo.dart';
+import 'Widgets/timerCountdown.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       
-      home: Alertdailogdemo(),
+      home: TimerCountdown(),
       debugShowCheckedModeBanner: false,
     );
   }
