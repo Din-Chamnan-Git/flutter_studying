@@ -5,6 +5,7 @@ import 'Widgets/ButtomNavBar.dart';
 import 'Widgets/MediaQueryDemo.dart';
 import 'Widgets/PageviewDemo.dart';
 import 'Widgets/SliverAppbardemo.dart';
+import 'Widgets/Stackdemo.dart';
 import 'Widgets/TabBarDemo.dart';
 import 'Widgets/timerCountdown.dart';
 
@@ -23,8 +24,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      
-      home: Pageviewdemo(),
+      home: Stackdemo(),
       debugShowCheckedModeBanner: false,
     );
   }

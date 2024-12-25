@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-
-import '../Pages/pagehome.dart';
 import 'TabBarDemo.dart';
 
 class Alertdailogdemo extends StatelessWidget {
@@ -24,15 +22,14 @@ class Alertdailogdemo extends StatelessWidget {
                       backgroundColor: Colors.deepPurple[100],
                       title: const Text(
                         "My Message",
-                        style:  TextStyle(
+                        style: TextStyle(
                             fontWeight: FontWeight.bold, fontFamily: "poppin"),
                       ),
                       content: const Text(
                         "This is a message",
-                        style:  TextStyle(
+                        style: TextStyle(
                             fontWeight: FontWeight.bold, fontFamily: "poppin"),
                       ),
-                    
                       actions: [
                         TextButton(
                           onPressed: () {
