@@ -1,5 +1,7 @@
+import 'package:day01/ScreenSplash/AnimateSplashScreenDemo.dart';
 import 'package:flutter/material.dart';
 
+import 'ScreenSplash/splashScreen.dart';
 import 'Widgets/AlertDailogDemo.dart';
 import 'Widgets/ButtomNavBar.dart';
 import 'Widgets/MediaQueryDemo.dart';
@@ -24,7 +26,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Stackdemo(),
+      home: Animatesplashscreendemo(),
       debugShowCheckedModeBanner: false,
     );
   }
