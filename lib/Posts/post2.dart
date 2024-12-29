@@ -7,8 +7,8 @@ class Post2 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.pink[200],
-      body: Center(
-        child: const Column(
+      body: const Center(
+        child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(

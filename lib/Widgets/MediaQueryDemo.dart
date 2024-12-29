@@ -11,10 +11,9 @@ class Mediaquerydemo extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text("Height" + MediaQuery.of(context).size.height.toString()),
-            Text("Width" + MediaQuery.of(context).size.width.toString()),
-            Text("Aspect Ratio" +
-                MediaQuery.of(context).devicePixelRatio.toString()),
+            Text("Height${MediaQuery.of(context).size.height}"),
+            Text("Width${MediaQuery.of(context).size.width}"),
+            Text("Aspect Ratio${MediaQuery.of(context).devicePixelRatio}"),
             // Text("Orientation" + MediaQuery.of(context).orientation.toString()),
           ],
         ),

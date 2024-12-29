@@ -5,8 +5,8 @@ class Messagepage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: const Column(
+    return const Center(
+      child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Text(

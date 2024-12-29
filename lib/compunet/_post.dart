@@ -8,7 +8,7 @@ class postBlog extends StatelessWidget {
   Widget build(BuildContext context) {
     return ClipRRect(
       child: Padding(
-        padding: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
+        padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
         child: Container(
           width: 350,
           height: 400,
@@ -19,7 +19,7 @@ class postBlog extends StatelessWidget {
           alignment: Alignment.center,
           child: Text(
             txtPost,
-            style: TextStyle(
+            style: const TextStyle(
               fontSize: 20,
               fontFamily: "poppin",
               fontWeight: FontWeight.bold,

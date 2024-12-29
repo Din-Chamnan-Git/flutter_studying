@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'ScreenSplash/splashScreen.dart';
 import 'Widgets/AlertDailogDemo.dart';
 import 'Widgets/ButtomNavBar.dart';
+import 'Widgets/InputTextField.dart';
 import 'Widgets/MediaQueryDemo.dart';
 import 'Widgets/PageviewDemo.dart';
 import 'Widgets/SliverAppbardemo.dart';
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Animatesplashscreendemo(),
+      home: const Inputtextfield(),
       debugShowCheckedModeBanner: false,
     );
   }

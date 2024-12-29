@@ -26,8 +26,8 @@ class _HompageState extends State<Hompage> {
         ),
         centerTitle: true,
         toolbarHeight: 100,
-        actions: [
-          const Icon(
+        actions: const [
+          Icon(
             Icons.ac_unit_rounded,
             color: Colors.white,
             size: 30,
@@ -41,7 +41,7 @@ class _HompageState extends State<Hompage> {
               const SizedBox(
                 height: 20,
               ),
-              Container(
+              SizedBox(
                 height: 220,
                 width: 350,
                 child: ListView.builder(

@@ -22,7 +22,7 @@ class Tabbardemo extends StatelessWidget {
         ),
         body: Column(
           children: [
-            TabBar(
+            const TabBar(
               tabs: [
                 Tab(
                   icon: Icon(
@@ -49,7 +49,7 @@ class Tabbardemo extends StatelessWidget {
                 children: [
                   Container(
                     color: Colors.deepPurple[100],
-                    child: Center(
+                    child: const Center(
                       child: Text(
                         "Home",
                         style: TextStyle(
@@ -62,7 +62,7 @@ class Tabbardemo extends StatelessWidget {
                   ),
                   Container(
                     color: Colors.deepPurple[100],
-                    child: Center(
+                    child: const Center(
                       child: Text(
                         "Settings",
                         style: TextStyle(
@@ -75,7 +75,7 @@ class Tabbardemo extends StatelessWidget {
                   ),
                   Container(
                     color: Colors.deepPurple[100],
-                    child: Center(
+                    child: const Center(
                       child: Text(
                         "Profile",
                         style: TextStyle(

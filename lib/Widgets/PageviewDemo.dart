@@ -13,7 +13,7 @@ class Pageviewdemo extends StatelessWidget {
       body: PageView(
         controller: _pageController,
         scrollDirection: Axis.vertical,
-        children: [
+        children: const [
           Post1(),
           Post2(),
           Post3(),

@@ -7,7 +7,7 @@ class Stackdemo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        alignment: Alignment(0, 0),
+        alignment: const Alignment(0, 0),
         child: Stack(
           alignment: Alignment.center,
           children: [
