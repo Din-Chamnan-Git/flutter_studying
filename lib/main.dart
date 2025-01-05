@@ -13,6 +13,7 @@ import 'Widgets/SliverAppbardemo.dart';
 import 'Widgets/Stackdemo.dart';
 import 'Widgets/TabBarDemo.dart';
 import 'Widgets/animateIcon.dart';
+import 'Widgets/slidable.dart';
 import 'Widgets/timerCountdown.dart';
 
 void main() {
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Datepicker(),
+      home: Slidablee(),
       debugShowCheckedModeBanner: false,
     );
   }
