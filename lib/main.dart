@@ -8,6 +8,7 @@ import 'Widgets/DatePicker.dart';
 import 'Widgets/InputTextField.dart';
 import 'Widgets/MediaQueryDemo.dart';
 import 'Widgets/PageviewDemo.dart';
+import 'Widgets/Slide_to_do.dart';
 import 'Widgets/SliderDemo.dart';
 import 'Widgets/SliverAppbardemo.dart';
 import 'Widgets/Stackdemo.dart';
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Slidablee(),
+      home: SlideToDo(),
       debugShowCheckedModeBanner: false,
     );
   }
